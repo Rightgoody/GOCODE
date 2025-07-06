@@ -23,7 +23,7 @@ func main() {
 	fmt.Println(nextInt())
 	fmt.Println(nextInt())
 
-	newInts := intSeq() // I didn't know that you could create a new function and copty previous existing one to it!
+	newInts := intSeq() // I didn't know that you could create a new function and copty previous existing one to it!s
 	fmt.Println(newInts())
 
 }
