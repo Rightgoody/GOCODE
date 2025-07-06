@@ -1,0 +1,22 @@
+package main
+
+import (
+	"fmt"
+)
+
+/*
+Go strings are a read-only slice of bytes. The language and the standard library treats strings specially
+
+in Go, the concept of a character is called a rune - it's and integer that represents a Unicode code point!
+*/
+
+func main() {
+
+	const s = "สวัสดี" // hello in thai language
+
+	fmt.Println("Len:", len(s))
+
+	for i := 0; i < len(s); i++ {
+		fmt.Printf("%x ", s[i])
+	}
+}
